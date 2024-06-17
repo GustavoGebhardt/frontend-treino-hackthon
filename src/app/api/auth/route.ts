@@ -25,7 +25,6 @@ export async function POST(req: NextRequest) {
         })
     })
     const responseData = await response.json()
-    console.log(responseData)
     cookies().set('token', responseData.token,)
     cookies().set('name', responseData.usuario.nome)
 
