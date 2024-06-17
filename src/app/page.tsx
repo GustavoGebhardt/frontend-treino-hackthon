@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Footer from "../../components/footer";
 import Header from "../../components/header";
-import gemini from "./api/gemini/route";
+import gemini from "../../components/gemini-chat";
 import styles from "./page.module.css";
 
 export default function Home() {

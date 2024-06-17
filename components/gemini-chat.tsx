@@ -14,6 +14,5 @@ export default async function gemini(promptInput: string) {
     const result = await model.generateContent(prompt);
     const response = await result.response;
     const text = response.text();
-    console.log(text);
     return text
 }
