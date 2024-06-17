@@ -1,0 +1,64 @@
+.divBackground{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.divBackgroundLeft{
+    width: 100%;
+    background-color: rgb(31, 31, 31);
+    background-size: cover;
+}
+
+.divBackgroundRight{
+    width: 40%;
+    display: flex;
+}
+
+.formLogin{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}   
+
+.divInput{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.textTituloLogin{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.inputLogin{
+    width: 220px;
+    height: 30px;
+    font-size: 13px;
+    padding-left: 10px;
+    border: none;
+    border-bottom: solid 1px rgb(39, 39, 39);
+    outline: 0;
+}
+
+.inputLogin:user-invalid{
+    border-bottom: solid 1px rgb(163, 2, 2);
+}
+
+.inputLogin:user-valid{
+    border-bottom: solid 1px rgb(2, 163, 40);
+}
+
+.btnLogin{
+    width: 220px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+}
